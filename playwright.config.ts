@@ -22,7 +22,7 @@ export default defineConfig({
     baseURL: 'https://www.saucedemo.com',
     // baseURL: 'http://localhost:3000',
     trace: 'on-first-retry',
-    headless: false, // since you're using --headed anyway, this helps locally
+    headless: true, // since you're using --headed anyway, this helps locally
   },
 
   projects: [
