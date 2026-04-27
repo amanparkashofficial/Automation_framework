@@ -48,10 +48,10 @@ export default defineConfig({
     },
 
     // ✅ Safari (WebKit)
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
-    },
+    // {
+    //   name: 'webkit',
+    //   use: { ...devices['Desktop Safari'] },
+    // },
 
     // ✅ Optional: Microsoft Edge
     // {
